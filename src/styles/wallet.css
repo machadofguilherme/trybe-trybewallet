@@ -1,0 +1,169 @@
+.wallet-header {
+  width: 100%;
+  height: 60px;
+  background-color: #393E46;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+.wallet-logo {
+  font-size: 1.3em;
+}
+
+.wallet-logo strong {
+  padding-left: 5px;
+}
+
+.wallet-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  padding-top: 2px;
+  width: 170px;
+  font-size: .9em;
+} 
+
+.total {
+  font-weight: 600;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.exchange-default {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.exchange-icon {
+  font-size: 1.1em;
+}
+
+.wallet-email {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: .9.5em;
+}
+
+.wallet-form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.596);
+  height: 40px;
+  padding: 5px 0;
+}
+
+.wallet-form input {
+  background-color: #393E46;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 0 7px;
+  color: white;
+}
+
+.wallet-form input::placeholder {
+  color: white;
+}
+
+.wallet-form select {
+  border-radius: 5px;
+  background-color: #393E46;
+  color: white;
+  font-weight: bold;
+  margin: 0 5px;
+  outline: none;
+  transition: all 500ms ease;
+  text-align: center;
+  height: 30px;
+  border: none;
+}
+
+.wallet-form select:hover {
+  background-color: #393E46;
+}
+
+.wallet-form button {
+  background-color: #00ADB5;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 500ms ease;
+  border-radius: 5px;
+  padding: 0 10px;
+  border: .5px solid black;
+}
+
+.wallet-form button:hover {
+  opacity: .8;
+}
+
+.wallet-table {
+  padding: 10px 0;
+  color: white;
+  margin: 0 auto;
+  width: 65%;
+  height: 50px;
+}
+
+.wallet-table-content {
+  background-color: black;
+  padding: 0px 15px;
+  height: 30px;
+}
+
+tbody td {
+  border-radius: 5px;
+  text-align: center;
+}
+
+.wallet-table-delete {
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.xablau {
+  background-color: red;
+}
+
+.wallet-table-delete:hover {
+  opacity: .8;
+}
+
+@media (max-width: 710px) {
+  .wallet-email {
+    display: none;
+  }
+
+  .wallet-header {
+    justify-content: space-around;
+  }
+
+  .wallet-form {
+    justify-items: center;
+    align-items: center;
+  }
+
+  .wallet-form input {
+    width: 85px;
+    height: 30px;
+  }
+
+  .wallet-form button {
+    height: 30px;
+  }
+}
