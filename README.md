@@ -10,6 +10,8 @@ Nesse projeto utilizei os conhecimentos que obtive em Redux, conseguindo assim s
 - É possível visualizar uma tabela com seus gastos.
 - É possível visualizar o total de gastos convertidos para uma moeda de escolha.
 
+Para acesssar, utilize um e-mail qualquer que termine em ".com" e coloque uma senha maior ou igual a 6 caracteres.
+Por exemplo: email@teste.com, 123456.
 
 ## Execução
 
